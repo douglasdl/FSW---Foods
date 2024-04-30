@@ -3,15 +3,17 @@
 - [Figma](https://www.figma.com/file/1jN6R19FdAn7L8JWUm4I9j/[LIVE]-FSW-Foods?type=design&node-id=381-7368&mode=design&t=62eYbIC66DJlgfe2-0)
 - [NextJS](https://nextjs.org/)
 - [Shadcn / UI](https://ui.shadcn.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Database
 - [Prisma](https://www.prisma.io/)
-- [Postgres]()
-- [Docker]()
+- [Postgres](https://www.postgresql.org/)
+- [Docker](https://www.docker.com/)
 - [Neon DB](https://neon.tech/)
 
 ## VS Code Extensions
 - [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ## Conventional Commits
 - fix
@@ -31,6 +33,7 @@ Install the development dependencies:
 ```sh
 npm i prisma -D
 npm i ts-node -D
+npm i -D prettier prettier-plugin-tailwindcss
 ```
 
 Create the Prisma Schema (postgresql, mysql, sqlite, sqlserver, mongodb or cockroachdb):
