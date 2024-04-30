@@ -2,6 +2,7 @@
 
 - [Figma](https://www.figma.com/file/1jN6R19FdAn7L8JWUm4I9j/[LIVE]-FSW-Foods?type=design&node-id=381-7368&mode=design&t=62eYbIC66DJlgfe2-0)
 - [NextJS](https://nextjs.org/)
+- [Shadcn / UI](https://ui.shadcn.com/)
 
 ## Database
 - [Prisma](https://www.prisma.io/)
@@ -46,6 +47,18 @@ Populate the database:
 ```sh
 npx prisma db seed
 ```
+
+Create the Shadcn setup:
+```sh
+npx shadcn-ui@latest init
+```
+
+Install the Shadcn components:
+```sh
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add card
+```:
+
 
 Start the project:
 ```sh
