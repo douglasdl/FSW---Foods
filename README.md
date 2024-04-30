@@ -4,6 +4,7 @@
 - [NextJS](https://nextjs.org/)
 - [Shadcn / UI](https://ui.shadcn.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
 
 ## Database
 - [Prisma](https://www.prisma.io/)
@@ -14,6 +15,7 @@
 ## VS Code Extensions
 - [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Conventional Commits
 - fix
@@ -34,6 +36,7 @@ Install the development dependencies:
 npm i prisma -D
 npm i ts-node -D
 npm i -D prettier prettier-plugin-tailwindcss
+npm i -D husky lint-staged
 ```
 
 Create the Prisma Schema (postgresql, mysql, sqlite, sqlserver, mongodb or cockroachdb):
@@ -49,6 +52,11 @@ npx prisma migrate dev --name init_database
 Populate the database:
 ```sh
 npx prisma db seed
+```
+
+Configure the Husky:
+```sh
+npx husky init
 ```
 
 Create the Shadcn setup:

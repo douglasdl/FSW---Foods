@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex-1 h-screen bg-red-500 p-5 flex">
+    <div className="flex h-screen flex-1 bg-red-500 p-5">
       <h1>Hello</h1>
     </div>
   );
