@@ -24,7 +24,12 @@ npx create-next-app@latest foods
 
 Install the dependencies:
 ```sh
+```
 
+Install the development dependencies:
+```sh
+npm i prisma -D
+npm i ts-node -D
 ```
 
 Create the Prisma Schema (postgresql, mysql, sqlite, sqlserver, mongodb or cockroachdb):
@@ -37,9 +42,9 @@ Generate the database and tables:
 npx prisma migrate dev --name init_database
 ```
 
-Install the development dependencies:
+Populate the database:
 ```sh
-npm i prisma -D
+npx prisma db seed
 ```
 
 Start the project:
