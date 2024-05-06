@@ -80,8 +80,9 @@ npx shadcn-ui@latest init
 
 Install the Shadcn components:
 ```sh
-npx shadcn-ui@latest add button
 npx shadcn-ui@latest add card
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add input
 ```
 
 Start the project:
