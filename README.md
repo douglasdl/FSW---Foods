@@ -18,9 +18,17 @@
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Conventional Commits
-- fix
-- feat
-- chore
+  - feat     Adição de funcionalidade.
+  - fix      Correção de defeito.
+  - docs     Mudança em documentação.
+  - style    Mudança de formatação ou estilo, que não afeta a execução do código (espaço, tabulação, etc).
+  - refactor Mudança na organização do código, que não afeta o comportamento existente.
+  - test     Adição ou mudança de um teste.
+  - chore    Adição ou mudança em script de build, que não afeta o código de produção.
+  - perf     Mudança de código para melhoria de desempenho.
+  - ci       Mudança de configuração de integração contínua.
+  - build    Mudança em arquivos de build ou em dependências externas.
+  - temp     Commit temporário, que não deve ser incluído no CHANGELOG.
 
 Create the project:
 ```sh
@@ -74,8 +82,7 @@ Install the Shadcn components:
 ```sh
 npx shadcn-ui@latest add button
 npx shadcn-ui@latest add card
-```:
-
+```
 
 Start the project:
 ```sh

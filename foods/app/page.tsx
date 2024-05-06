@@ -1,7 +1,9 @@
+import { Header } from "./_components/header";
+
 export default function Home() {
   return (
-    <div className="flex h-screen flex-1 bg-red-500 p-5">
-      <h1>Hello</h1>
+    <div className="flex h-screen flex-1 bg-white">
+      <Header />
     </div>
   );
 }
