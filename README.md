@@ -37,6 +37,7 @@ npm i prisma -D
 npm i ts-node -D
 npm i -D prettier prettier-plugin-tailwindcss
 npm i -D husky lint-staged
+npm i -D git-commit-msg-linter
 ```
 
 Create the Prisma Schema (postgresql, mysql, sqlite, sqlserver, mongodb or cockroachdb):
@@ -57,6 +58,11 @@ npx prisma db seed
 Configure the Husky:
 ```sh
 npx husky init
+```
+
+Configure the git-commit-msg-linter to work with Husky 5:
+```sh
+npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1"
 ```
 
 Create the Shadcn setup:
